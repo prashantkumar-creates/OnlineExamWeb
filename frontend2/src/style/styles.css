@@ -1,0 +1,352 @@
+/* red = #FF4446 
+    red = #FF4545
+    red = #B11119
+
+    black = #132330
+    black = #1F2123
+    black = #1E1C1C
+    black = #212121
+
+    white = #E7EBEE
+    white = #FDFFFF
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cntx {
+    box-shadow: 0 0 1em 0.1em rgb(151, 151, 151);
+    border-radius: 1em;
+    padding: 10em 0em;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+}
+
+.bgcolor {
+    height: 100vh;
+    padding: 2%;
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+}
+
+.btncolor {
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+    color: white;
+    width: 50%;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.sidebar {
+    background-color: #17202a;
+    width: 20%;
+    height: 100vh;
+}
+
+.sidebar>div>button {
+    width: 90%;
+    margin: 0.6vw 0.5vw;
+}
+
+.mx-width {
+    width: 80%;
+    /* background-color: #08ac4b; */
+    /* border: 10px solid wheat; */
+}
+
+.menu {
+    width: 100%;
+    color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+}
+
+hr {
+    color: white;
+}
+
+.questions {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    box-shadow: 0px 0px 5px 1px rgb(196, 192, 192);
+    margin-bottom: 10px;
+    padding: 0 50px;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+.snav {
+    box-shadow: 0px 0px 1px 1px rgb(189, 186, 186);
+    display: flex;
+    justify-content: end;
+    font-size: larger;
+    height: 8vh;
+    padding: 8px;
+}
+
+.snav button {
+    margin-left: 10px;
+}
+
+.question-item-head {
+    box-shadow: 0px 0px 1px 1px rgb(189, 186, 186);
+    min-height: 2vh;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 15px 20px;
+    width: 89.5%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.question-item-head-white {
+    box-shadow: 0px 0px 1px 1px rgb(143, 142, 142);
+    min-height: 2vh;
+    padding: 15px 20px;
+    width: 89%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.question-item {
+    box-shadow: 0px 0px 1px 1px rgb(189, 186, 186);
+    min-height: 2vh;
+    padding: 10px;
+    width: 89%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-item:hover {
+    box-shadow: 0px 0px 1px 1.5px rgb(189, 186, 186);
+    transform: scale(1.001);
+}
+
+.sbox {
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    margin: 10px;
+}
+
+.qnumber {
+    padding: 10px 20px;
+}
+
+.ans {
+    padding: 10px 20px;
+    border-top: 1px solid rgb(213, 207, 207);
+}
+
+.smain {
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px rgb(184, 180, 180);
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h4 {
+    padding: 0px 30px;
+    text-decoration: underline;
+}
+
+table {
+    margin-left: 20%;
+    margin-top: 4%;
+    border-radius: 4px;
+    width: 50%;
+    height: 85vh;
+    box-shadow: 0px 0px 0px 2px rgb(211, 209, 209);
+}
+
+td {
+    padding: 0px 6px;
+}
+
+.aln-right {
+    text-align: right;
+}
+
+.equal-width {
+    width: 15vw;
+    height: 5vh;
+}
+
+.submitbtn {
+    border-style: none;
+    border: 1px solid #05a081;
+    border-color: #05a081;
+    color: #05a081;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 800;
+}
+
+.submitbtn:hover {
+    background-color: #05a081;
+    color: white;
+}
+
+.equal-width-btns {
+    width: 10vw;
+}
+
+.smain-width-50prcnt {
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px rgb(182, 181, 181);
+    width: 48%;
+    height: min-content;
+    padding: 10px;
+    margin: 1%;
+}
+
+.smain-width-50prcnt:hover {
+    box-shadow: 0px 0px 2px 2px rgb(177, 176, 176);
+}
+
+.autoresizing {
+    width: 100%;
+    height: auto;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    outline: none;
+}
+
+.floatRight {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.cbox {
+    width: 93%;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 1px grey;
+    padding: 30px 30px;
+}
+
+.btn-primarys {
+    background-color: #05a081;
+    color: white;
+}
+
+.btn-primarys:hover {
+    border-color: #05a081;
+    color: white;
+}
+
+.btn-darks {
+    border-color: #05a081;
+    color: #05a081;
+}
+
+.btn-secondarys {
+    background-color: #05a081;
+    color: white;
+}
+
+.btn-secondarys>option {
+    background-color: white;
+    color: #17202a;
+}
+
+
+
+/* krupa code */
+
+.kk-timer-container{
+    background-image: url('../backtimer2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.kk-timer {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7em;
+    padding-top: 2em;
+    width: 100%;
+    height: 100%;
+}
+
+.kk-timer div:last-child{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    /*next 2 lines used to make them inline*/
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 1em;
+    text-align: center;
+}
+
+.section p:first-child, .timer div:last-child span{
+    font-size: 2.5em;
+}
+.label{
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+
+.bgblack{
+    background-color: grey;
+}
+/* End of krupa code */
+
+.centerTime{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 3px rgb(204, 202, 202);
+    width: 20%;
+    margin: 8px  auto 10px;
+    line-height: 2;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.descriptiveQuestion{
+    margin: auto;
+    width: 95%;
+    box-shadow: 0 0 1px 1px rgb(175, 174, 174);
+}
+
+.question , .answer{
+    padding: 10px 30px;
+    box-shadow: 0 0 1px 1px rgb(202, 201, 201);
+}
